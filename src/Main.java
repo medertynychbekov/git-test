@@ -12,4 +12,8 @@ public class Main {
     public static void printHelloWorld() {
         System.out.println("Hello world");
     }
+
+    public void method(String name){
+        System.out.println("Your name is: " + name);
+    }
 }
