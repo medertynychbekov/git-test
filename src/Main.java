@@ -12,4 +12,11 @@ public class Main {
     public static void printHelloWorld() {
         System.out.println("Hello world");
     }
+
+    /**
+     * метод создан для того, чтобы вывести на консоль Ваше имя
+     */
+    public void method(String name) {
+        System.out.println("Your name is: " + name);
+    }
 }
