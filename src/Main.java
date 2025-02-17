@@ -16,4 +16,11 @@ public class Main {
     public void method1(String name){
         System.out.println("Your name is: " + name);
     }
+
+    /**
+     * метод создан для того, чтобы вывести на консоль Ваше имя
+     */
+    public void method(String name) {
+        System.out.println("Your name is: " + name);
+    }
 }
